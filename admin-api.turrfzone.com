@@ -13,8 +13,8 @@ server {
     server_name api.turrfzone.com;
 
     # SSL certs from certbot
-    ssl_certificate /etc/letsencrypt/live/api.turrfzone.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/api.turrfzone.com/privkey.pem;
+    #ssl_certificate /etc/letsencrypt/live/api.turrfzone.com/fullchain.pem;
+    #ssl_certificate_key /etc/letsencrypt/live/api.turrfzone.com/privkey.pem;
 
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_prefer_server_ciphers on;
