@@ -1,7 +1,7 @@
 # Redirect HTTP to HTTPS
 server {
     listen 80;
-    server_name api.turrfzone.com;
+    server_name admin-api.turrfzone.com;
 
     # Redirect all HTTP to HTTPS
     return 301 https://$host$request_uri;
