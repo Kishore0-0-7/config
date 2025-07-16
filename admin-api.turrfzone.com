@@ -34,6 +34,6 @@ server {
 
         # WebSocket support (if needed)
         proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Con    nection "upgrade";
+        proxy_set_header Connection "upgrade";
     }
 }
