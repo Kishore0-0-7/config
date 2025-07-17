@@ -24,7 +24,7 @@ server {
 
     # Proxy requests to your .NET backend
     location / {
-        proxy_pass http://localhost:5125;
+        proxy_pass http://localhost:5126;
         proxy_http_version 1.1;
 
         proxy_set_header Host $host;
